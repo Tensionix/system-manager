@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <title>Portable Developer Tools</title>
+  <desc>An orange down chevron centered directly between cyan and yellow code brackets. The centers of all three glyphs align horizontally at the center of the tile. Flat shapes with smooth gradients.</desc>
+  <defs>
+    <linearGradient id="tile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#28374A"/><stop offset=".5" stop-color="#152233"/><stop offset="1" stop-color="#0A1421"/>
+    </linearGradient>
+    <linearGradient id="codeBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#56D7FF"/><stop offset=".5" stop-color="#159FE7"/><stop offset="1" stop-color="#087CC7"/>
+    </linearGradient>
+    <linearGradient id="pythonYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#FFE78A"/><stop offset=".5" stop-color="#FFD052"/><stop offset="1" stop-color="#F2AD2E"/>
+    </linearGradient>
+    <linearGradient id="installOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#FFB56B"/><stop offset=".5" stop-color="#F28D43"/><stop offset="1" stop-color="#D86632"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#tile)"/>
+  <path d="M270 366L124 512L270 658" stroke="url(#codeBlue)" stroke-width="72" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M754 366L900 512L754 658" stroke="url(#pythonYellow)" stroke-width="72" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M366 439L512 585L658 439" stroke="url(#installOrange)" stroke-width="72" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
