@@ -8,14 +8,15 @@
   <a href="https://github.com/Tensionix/system-manager/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Tensionix/system-manager?style=flat-square&color=5fd08a&logo=apache&logoColor=white&cacheSeconds=3600"></a>
 </p>
 
-**Version 1.1.0** · 2026-10-16 · 49.3 MB
+**Version 1.2.0** · 2026-10-24 · 49.3 MB
 
-- [Direct download](https://audion.dev/get/system-manager/1.1.0/Audion_System_Manager_v1.1.0_Full.zip) — unmetered, no rate limits
+- [Direct download](https://dl.audion.dev/system-manager/1.2.0/Audion_System_Manager_v1.2.0_Full.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/system-manager) — every version and how to install
+- [GitHub release](https://github.com/Tensionix/system-manager/releases/tag/v1.2.0)
 
 <p align="center"><img src="Docs/screenshot.png" alt="The program window" width="560"></p>
 
-`SHA-256: bff34fad108eef642a592fe2d2ef0887ccb1a1a03a1a61a633e30c48839cfe70`
+`SHA-256: 18350b6320c0e53516256951a12862ed325eafb3ac03dca9bc88f14a12ac191c`
 
 ---
 
