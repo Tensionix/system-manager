@@ -10,13 +10,13 @@
 
 **Version 1.2.0** · 2026-10-24 · 49.3 MB
 
-- [Direct download](https://dl.audion.dev/system-manager/1.2.0/Audion_System_Manager_v1.2.0_Full.zip) — unmetered, no rate limits
+- [Direct download](https://dl.audion.dev/system-manager/1.2.0/Audion_System_Manager_v1.2.0.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/system-manager) — every version and how to install
 - [GitHub release](https://github.com/Tensionix/system-manager/releases/tag/v1.2.0)
 
 <p align="center"><img src="Docs/screenshot.png" alt="The program window" width="560"></p>
 
-`SHA-256: 18350b6320c0e53516256951a12862ed325eafb3ac03dca9bc88f14a12ac191c`
+`SHA-256: 9a4ca653febaa88646760e0ae44d1bf2fbf6fdcc0b3ede776a7e9435e25bcb7a`
 
 ---
 
