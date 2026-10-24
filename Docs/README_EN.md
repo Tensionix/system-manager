@@ -2,7 +2,7 @@
 
 [English README](README_EN.md) · [User Guide](USER_GUIDE_EN.md) | [Русский README](README_RU.md) · [Руководство](USER_GUIDE_RU.md)
 
-One window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console **Claude Code**, **Codex**, **Grok Build**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. With buttons: no black console window, no command-line switches.
+One window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console **Claude Code**, **Codex**, **Grok Build**, **Antigravity CLI**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. With buttons: no black console window, no command-line switches.
 
 ## Why
 
@@ -16,7 +16,7 @@ A package manager installs a program but does not set it up. An installer wizard
 | VS CODE | the installer for the machine or the profile with every box of its wizard, the settings, keys and snippets, the extensions by the lists | the archive in a folder with its data folder, updated without losing the settings |
 | GIT | Git for Windows with every box of its wizard; GitHub CLI with sign-in in the browser; the Audion Git settings, the personal ones left alone | PortableGit in a folder, GitHub CLI beside it |
 
-The **AI CLI** section installs and updates Claude Code, Codex and Grok Build with their authors' installers, and signs in and out with your subscription (OAuth in the browser) by a button for each.
+The **AI CLI** section installs and updates Claude Code, Codex, Grok Build and Antigravity CLI with their authors' installers, and signs in and out with your subscription (OAuth in the browser) by a button for each.
 
 Administrator rights are asked for only for an install for the whole machine — by the UAC prompt of the installer. Downloads go to `Download`, portable builds to `Portable`: **the folder can be carried to another machine whole**.
 

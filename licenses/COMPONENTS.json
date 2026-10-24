@@ -1,6 +1,6 @@
 {
   "schema": "audion.build_licenses.components.v1",
-  "generated_utc": "2026-10-15T23:23:24Z",
+  "generated_utc": "2026-10-24T08:14:09Z",
   "project_id": "audion-system-manager",
   "project_name": "Audion System Manager",
   "scan_root": ".",
@@ -17,7 +17,7 @@
       "bundled": true,
       "optional_runtime": false,
       "provider": "",
-      "artifact_sha256": "301388c710d2870b957a323c141571d3201967ecbb9a40f33b1f4ad7e26b9d1a",
+      "artifact_sha256": "04a05411a190d64afe220a6d7444604015c2c797d920229c7bc267bdd2984811",
       "artifact_path": "Start.exe",
       "obligation_class": "permissive",
       "redistributable": true,

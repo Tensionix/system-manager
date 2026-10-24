@@ -105,7 +105,7 @@ The **IN THE SYSTEM** card shows what usually breaks: every Python the registry 
 
 **TAKE FROM THE MACHINE** makes the settings, keys (`keybindings.json`) and snippets of this machine's VS Code the preset — the installed or the portable one, by the mode of the page; the machine's path of ripgrep is left out. The keys and snippets of the preset go along with the settings. **UPDATE EXTENSIONS** updates every extension now by VS Code itself (`code --update-extensions`); usually they update by themselves too — `extensions.autoUpdate` is on in the Audion settings.
 
-The extensions come from three lists in `Presets\VSCode`: **CORE** (`extensions.txt`, installed always), **AI AGENTS** (`extensions-ai.txt`: Claude and Codex by default; Gemini answers only with an organisation's licence, Grok is a panel over a separate Grok Build CLI) and **BY REQUEST** (`extensions-optional.txt`). Every extension is a chip: on or off; the mark is kept in the settings of the program. The tip of a section's name says why exactly these are in it, the tip of a chip gives the full identifier and whether the extension is installed. The lists can be edited (the **LISTS** button): one line — one identifier, a heading `# --- Name ---` opens a section.
+The extensions come from three lists in `Presets\VSCode`: **CORE** (`extensions.txt`, installed always), **AI AGENTS** (`extensions-ai.txt`: Claude and Codex by default; Grok by request, a panel over a separate Grok Build CLI) and **BY REQUEST** (`extensions-optional.txt`). Every extension is a chip: on or off; the mark is kept in the settings of the program. The tip of a section's name says why exactly these are in it, the tip of a chip gives the full identifier and whether the extension is installed. The lists can be edited (the **LISTS** button): one line — one identifier, a heading `# --- Name ---` opens a section.
 
 ## GIT
 
@@ -119,16 +119,16 @@ The extensions come from three lists in `Presets\VSCode`: **CORE** (`extensions.
 
 ## AI CLI
 
-The agents of the console: **Claude Code**, **Codex** and **Grok Build**. The section has no modes: the agents live in the user profile and install with no administrator rights.
+The agents of the console: **Claude Code**, **Codex**, **Grok Build** and, last, **Antigravity CLI** (`agy`, Google's agent that succeeded Gemini CLI). The section has no modes: the agents live in the user profile and install with no administrator rights.
 
 Each agent shows its version against the latest, its sign-in and its buttons:
 
-- **INSTALL / UPDATE** — with its authors' installer (PowerShell, `irm … | iex`) as their documentation gives it; an installed one is updated with its own command (`claude update`, `grok update`; Codex — with the same installer). The folder of the program is added to the user PATH when the installer did not do it.
-- **SIGN IN** — OAuth in the browser with your subscription: the CLI's own sign-in command runs in a console window of its own (`claude auth login`, `codex login`, `grok login --oauth`).
-- **SIGN OUT** — sign out of the account (after a question).
+- **INSTALL / UPDATE** — with its authors' installer (PowerShell, `irm … | iex`) as their documentation gives it; an installed one is updated with its own command (`claude update`, `grok update`, `agy update`; Codex — with the same installer). The folder of the program is added to the user PATH when the installer did not do it.
+- **SIGN IN** — OAuth in the browser with your subscription: the CLI's own sign-in command runs in a console window of its own (`claude auth login`, `codex login`, `grok login --oauth`). Antigravity CLI has no sign-in command of its own: `agy` itself starts, and with no saved sign-in it opens Google's sign-in page.
+- **SIGN OUT** — sign out of the account (after a question). Antigravity CLI has no such button: sign out with the `/logout` command in `agy` itself.
 - **START** — the agent in a console window of its own.
 
-Whether an agent is signed in the program sees only by the file of its sign-in being there; the file itself is never read. **INSTALL** at the bottom installs and updates every agent ticked with **WITH THE BUTTON BELOW**.
+Whether an agent is signed in the program sees only by the file of its sign-in being there; the file itself is never read. Antigravity CLI keeps its sign-in in the Windows Credential Manager — the program does not check it. **INSTALL** at the bottom installs and updates every agent ticked with **WITH THE BUTTON BELOW**; Antigravity CLI is not ticked by default and is not counted in the summary of the section on top until it is installed.
 
 ## DOWNLOADS
 

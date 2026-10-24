@@ -10,13 +10,12 @@
 
 **Version 1.2.0** · 2026-10-24 · 49.3 MB
 
-- [Direct download](https://dl.audion.dev/system-manager/1.2.0/Audion_System_Manager_v1.2.0.zip) — unmetered, no rate limits
+- [Direct download](https://audion.dev/get/system-manager/1.2.0/Audion_System_Manager_v1.2.0_Full.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/system-manager) — every version and how to install
-- [GitHub release](https://github.com/Tensionix/system-manager/releases/tag/v1.2.0)
 
 <p align="center"><img src="Docs/screenshot.png" alt="The program window" width="560"></p>
 
-`SHA-256: 9a4ca653febaa88646760e0ae44d1bf2fbf6fdcc0b3ede776a7e9435e25bcb7a`
+`SHA-256: 18350b6320c0e53516256951a12862ed325eafb3ac03dca9bc88f14a12ac191c`
 
 ---
 
@@ -26,7 +25,7 @@ An **Audion** tool, published by [Tensionix](https://github.com/Tensionix).
 
 [English README](Docs/README_EN.md) · [User Guide](Docs/USER_GUIDE_EN.md) | [Русский README](Docs/README_RU.md) · [Руководство](Docs/USER_GUIDE_RU.md)
 
-One window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console **Claude Code**, **Codex**, **Grok Build**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. With buttons: no black console window, no command-line switches.
+One window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console **Claude Code**, **Codex**, **Grok Build**, **Antigravity CLI**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. With buttons: no black console window, no command-line switches.
 
 ## Why
 
@@ -40,7 +39,7 @@ A package manager installs a program but does not set it up. An installer wizard
 | VS CODE | the installer for the machine or the profile with every box of its wizard, the settings, keys and snippets, the extensions by the lists | the archive in a folder with its data folder, updated without losing the settings |
 | GIT | Git for Windows with every box of its wizard; GitHub CLI with sign-in in the browser; the Audion Git settings, the personal ones left alone | PortableGit in a folder, GitHub CLI beside it |
 
-The **AI CLI** section installs and updates Claude Code, Codex and Grok Build with their authors' installers, and signs in and out with your subscription (OAuth in the browser) by a button for each.
+The **AI CLI** section installs and updates Claude Code, Codex, Grok Build and Antigravity CLI with their authors' installers, and signs in and out with your subscription (OAuth in the browser) by a button for each.
 
 Administrator rights are asked for only for an install for the whole machine — by the UAC prompt of the installer. Downloads go to `Download`, portable builds to `Portable`: **the folder can be carried to another machine whole**.
 
