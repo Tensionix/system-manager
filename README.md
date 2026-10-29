@@ -10,13 +10,12 @@
 
 **Version 1.3.0** · 2026-10-29 · 49.2 MB
 
-- [Direct download](https://dl.audion.dev/system-manager/1.3.0/Audion_System_Manager_v1.3.0.zip) — unmetered, no rate limits
+- [Direct download](https://audion.dev/get/system-manager/1.3.0/Audion_System_Manager_v1.3.0_Full.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/system-manager) — every version and how to install
-- [GitHub release](https://github.com/Tensionix/system-manager/releases/tag/v1.3.0)
 
 <p align="center"><img src="Docs/screenshot.png" alt="The program window" width="560"></p>
 
-`SHA-256: 17aced166ea6d6a263be7af7132a423699b265859f37119f368e25fcaa9c8801`
+`SHA-256: 27cc5e23fff821e96cca18791b89a8dbed9ffc76016d724d603649c6d7b0926f`
 
 ---
 
@@ -26,7 +25,7 @@ An **Audion** tool, published by [Tensionix](https://github.com/Tensionix).
 
 [English README](Docs/README_EN.md) · [User Guide](Docs/USER_GUIDE_EN.md) | [Русский README](Docs/README_RU.md) · [Руководство](Docs/USER_GUIDE_RU.md)
 
-One window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console **Claude Code**, **Codex**, **Grok Build**, **Antigravity CLI**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. With buttons: no black console window, no command-line switches.
+One window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12, 3.13 and 3.14**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console **Claude Code**, **Codex**, **Grok Build**, **Antigravity CLI**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. With buttons: no black console window, no command-line switches.
 
 ## Why
 
@@ -36,7 +35,7 @@ A package manager installs a program but does not set it up. An installer wizard
 |---|---|---|
 | POWERSHELL 7 | the MSI for the whole machine with every option: Explorer menus, PATH, event log, updates through Microsoft Update; the Audion profile | the zip of the release in a folder |
 | TERMINAL | Windows Terminal from the Store (or through WinGet) and the Audion settings in every terminal found; the default terminal; Cascadia Nerd Font | the zip of the release in a folder, settings beside it |
-| PYTHON 3.12 | the python.org installer for all users, into its own folder, the path at the front of PATH, the py launcher, no Store stubs; pip of every Python | python.org's full archive with pip |
+| PYTHON | 3.12, 3.13 or 3.14, side by side: the python.org installer for all users, every version into its own folder, the path at the front of PATH, the py launcher, no Store stubs; pip of every Python | python.org's full archive with pip |
 | VS CODE | the installer for the machine or the profile with every box of its wizard, the settings, keys and snippets, the extensions by the lists | the archive in a folder with its data folder, updated without losing the settings |
 | GIT | Git for Windows with every box of its wizard; GitHub CLI with sign-in in the browser; the Audion Git settings, the personal ones left alone | PortableGit in a folder, GitHub CLI beside it |
 

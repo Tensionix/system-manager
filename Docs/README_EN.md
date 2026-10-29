@@ -2,7 +2,7 @@
 
 [English README](README_EN.md) · [User Guide](USER_GUIDE_EN.md) | [Русский README](README_RU.md) · [Руководство](USER_GUIDE_RU.md)
 
-One window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console **Claude Code**, **Codex**, **Grok Build**, **Antigravity CLI**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. With buttons: no black console window, no command-line switches.
+One window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12, 3.13 and 3.14**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console **Claude Code**, **Codex**, **Grok Build**, **Antigravity CLI**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. With buttons: no black console window, no command-line switches.
 
 ## Why
 
@@ -12,7 +12,7 @@ A package manager installs a program but does not set it up. An installer wizard
 |---|---|---|
 | POWERSHELL 7 | the MSI for the whole machine with every option: Explorer menus, PATH, event log, updates through Microsoft Update; the Audion profile | the zip of the release in a folder |
 | TERMINAL | Windows Terminal from the Store (or through WinGet) and the Audion settings in every terminal found; the default terminal; Cascadia Nerd Font | the zip of the release in a folder, settings beside it |
-| PYTHON 3.12 | the python.org installer for all users, into its own folder, the path at the front of PATH, the py launcher, no Store stubs; pip of every Python | python.org's full archive with pip |
+| PYTHON | 3.12, 3.13 or 3.14, side by side: the python.org installer for all users, every version into its own folder, the path at the front of PATH, the py launcher, no Store stubs; pip of every Python | python.org's full archive with pip |
 | VS CODE | the installer for the machine or the profile with every box of its wizard, the settings, keys and snippets, the extensions by the lists | the archive in a folder with its data folder, updated without losing the settings |
 | GIT | Git for Windows with every box of its wizard; GitHub CLI with sign-in in the browser; the Audion Git settings, the personal ones left alone | PortableGit in a folder, GitHub CLI beside it |
 

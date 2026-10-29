@@ -8,7 +8,7 @@
 - [The window](#the-window)
 - [POWERSHELL 7](#powershell-7)
 - [TERMINAL](#terminal)
-- [PYTHON 3.12](#python-312)
+- [PYTHON](#python)
 - [VS CODE](#vs-code)
 - [GIT](#git)
 - [AI CLI](#ai-cli)
@@ -18,7 +18,7 @@
 - [Keys](#keys)
 - [Network and privacy](#network-and-privacy)
 
-Audion System Manager is one window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console — **Claude Code**, **Codex**, **Grok Build**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. Everything is done with buttons: no black console window, no command-line switches.
+Audion System Manager is one window for the developer environment on Windows: **PowerShell 7**, **Windows Terminal**, **Python 3.12, 3.13 and 3.14**, **VS Code**, **Git** with **GitHub CLI**, and the agents of the console — **Claude Code**, **Codex**, **Grok Build**. Each program can be installed for the system or unpacked as a portable folder — with every option a package manager does not give, and with the Audion settings. Everything is done with buttons: no black console window, no command-line switches.
 
 ## Starting
 
@@ -32,14 +32,14 @@ A second start from the same folder does not open a second copy but shows the wi
 
 **The top row** — two dark pieces: the six sections, and the language and theme on the right. The name and version of the program are in the title bar and in ABOUT.
 
-**The sections** — POWERSHELL 7, TERMINAL, PYTHON 3.12, VS CODE, GIT, AI CLI. Each has a colour of its own; the colour of the line under the header shows which one is chosen. Under the name of a section — the version in the mode chosen on its page and the mark of the mode (a screen — for the system, a stick — portable). The dot by the version: green — the latest version, orange — not installed or a newer one is out ("1.132.0 → 1.142.0"), gray — the source did not answer. AI CLI shows a summary instead of a version, "2 of 3 · signed in 2": how many agents are installed and how many are signed in.
+**The sections** — POWERSHELL 7, TERMINAL, PYTHON, VS CODE, GIT, AI CLI. Each has a colour of its own; the colour of the line under the header shows which one is chosen. Under the name of a section — the version in the mode chosen on its page and the mark of the mode (a screen — for the system, a stick — portable). The dot by the version: green — the latest version, orange — not installed or a newer one is out ("1.132.0 → 1.142.0"), gray — the source did not answer. AI CLI shows a summary instead of a version, "2 of 3 · signed in 2": how many agents are installed and how many are signed in.
 
-**The page of a section** begins with two big mode buttons:
+**The page of a section** begins with the mode switch — two buttons in one frame at the top left:
 
 - **FOR THE SYSTEM** — the program is installed on the machine (or into the profile, where that is the idea) with its options;
 - **PORTABLE** — the program is unpacked into a folder and installs nothing; the folder can be carried to another machine.
 
-Under them — the cards of the chosen mode: the state (what is installed, where, which version is the latest, what lies in the downloads), the options and the buttons. VS Code has a card of settings and extensions below, shared by both modes.
+Under it — the cards of the chosen mode in two columns with a line between them; both columns belong to the mode chosen by the switch. On the left, what there is: the state (what is installed, where, which version is the latest, what lies in the downloads). On the right, what to do with it: the install options, and in the portable mode the folder and **UNPACKING** (how the build is unpacked from the archive in Download, its buttons). The cards both modes share — the PowerShell profile, the terminal font, the VS Code settings and extensions, GitHub CLI and the Git settings — stand in the same columns. In AI CLI the agents go left and right by turns; in ABOUT the program is on the left, the settings, keys and licence on the right. In a narrow window the columns stand one under the other: the left one first, then the right one.
 
 **At the bottom**, always:
 
@@ -71,7 +71,7 @@ The choice survives updates: the package keeps it and puts it back at the next i
 
 **Portable.** The zip of the same release is unpacked into a folder (`Portable\PowerShell` beside the program by default; the **Folder** field changes it). The portable PowerShell takes the user's profile and modules from Documents, as the installed one does. **START** opens it in a console of its own.
 
-**The PowerShell profile** is shared by both modes: the script `Documents\PowerShell\Microsoft.PowerShell_profile.ps1` that runs at the start of every window. The Audion profile (`Presets\PowerShell`) — UTF-8 encoding, PSReadLine suggestions from the history as a list, history search with the arrows. **CARRY OVER PROFILE** puts it there (the previous one is set aside with the date in its name), **TAKE FROM THE MACHINE** makes the profile of this machine the preset.
+**The PowerShell profile** is shared by both modes: the script `Documents\PowerShell\Microsoft.PowerShell_profile.ps1` that runs at the start of every window. The Audion profile (`Presets\PowerShell`) — UTF-8 encoding, PSReadLine suggestions from the history as a list, history search with the arrows. **CARRY OVER PROFILE** puts it there (the previous one is set aside with the date in its name), **TAKE FROM THE MACHINE** makes the profile of this machine the preset. With the **Author's settings: the Audion profile** box (ticked by default) the profile is put at every install and unpacking too; without it PowerShell 7 goes in clean and the profile on the machine is left alone.
 
 ## TERMINAL
 
@@ -83,17 +83,19 @@ The **AUDION SETTINGS** card shows what is in the settings file (`Presets\Termin
 
 **Font** — Cascadia Code and Cascadia Mono with the NF (Nerd Font: icons in prompts and file lists) and PL variants from GitHub, for the user, no rights. A face Windows has already (Cascadia Mono in Windows 11) is not touched; the same files are not installed twice.
 
-**Portable.** The zip of the GitHub release is unpacked into a folder (`Portable\Terminal` by default), a `.portable` file is put beside WindowsTerminal.exe — and the terminal keeps its settings in `settings\` beside itself. With the **AUDION SETTINGS** chip the Audion settings go there too. On an update `settings\` and `.portable` stay.
+**Portable.** The zip of the GitHub release is unpacked into a folder (`Portable\Terminal` by default), a `.portable` file is put beside WindowsTerminal.exe — and the terminal keeps its settings in `settings\` beside itself. With the **Author's settings** box the Audion settings go there too; the same box in the **AUDION SETTINGS** card decides whether they go into the installed terminal after an install. Ticked by default; without it the terminal goes in clean, with its own settings. On an update `settings\` and `.portable` stay.
 
-## PYTHON 3.12
+## PYTHON
 
-**For the system.** The python.org installer with keys of its own — for all users, into a folder of its own (`C:\Python312` by default: in Program Files every `pip install` runs into an elevation prompt, in its own folder it does not). The keys are the chips of the **INSTALL** card: the path at the front of the system PATH (the Store stub no longer catches `python`), the `py` launcher, tcl/tk; .py associations, Start menu shortcuts, the documentation and the tests are off by default. After the installer the program removes the Store stubs (zero-size python.exe and python3.exe in the profile), checks which python answers in a new console and updates pip.
+Under the title of the page — **Version**: 3.12, 3.13 or 3.14. The versions stand side by side, each in a folder of its own, with its own installer, archive and latest version at python.org; `py -3.12`, `py -3.14` pick one, `py` without a number the newest one installed. 3.12 is the default: the embedded runtimes of the Audion projects are on it (the wheel tag cp312). The choice is one for both modes and is kept in the settings of the program.
+
+**For the system.** The python.org installer with keys of its own — for all users, into a folder of its own (`C:\Python312`, `C:\Python313` or `C:\Python314` by default — every version has its own: in Program Files every `pip install` runs into an elevation prompt, in its own folder it does not). The keys are the chips of the **INSTALL** card: the path at the front of the system PATH (the Store stub no longer catches `python`), the `py` launcher, tcl/tk; .py associations, Start menu shortcuts, the documentation and the tests are off by default. After the installer the program removes the Store stubs (zero-size python.exe and python3.exe in the profile) and puts a copy of python.exe beside it as python3.exe, checks which python and python3 answer in a new console and updates pip. The stubs are the aliases of App Installer, and Windows brings them back with every update of it; but python3 is then answered by the real Python — its folder stands earlier in PATH than the folder of the stubs. The **Store stubs** line says whether they are shadowed.
 
 Why 3.12: the runtimes inside the Audion projects are 3.12, and the wheel tag (cp312) has to match. After 3.12.10 python.org releases 3.12 as sources only, so the latest version here is the latest one with a Windows installer.
 
 The **IN THE SYSTEM** card shows what usually breaks: every Python the registry knows (even those not in PATH), the py launcher, which python answers in a console, and the Store stubs. **UPDATE PIP OF ALL** updates pip of every Python the py launcher knows (where writing needs rights, Windows asks for them).
 
-**Portable.** python.org's full archive (`python-3.12.N-amd64.zip`, the one the Python Install Manager takes) is unpacked into a folder (`Portable\Python` by default): the whole Python with pip, nothing installed, nothing written to the registry. The Doc folder is not unpacked unless the **DOCUMENTATION** chip is on. On an update your packages (`Lib\site-packages` and `Scripts`) move to the new build. The py launcher does not see a portable Python — start it by the full path of python.exe or with **START**.
+**Portable.** python.org's full archive (`python-3.N.M-amd64.zip`, the one the Python Install Manager takes) is unpacked into the folder of its version (`Portable\Python` for 3.12, `Portable\Python313` and `Portable\Python314` for the others by default): the whole Python with pip, nothing installed, nothing written to the registry. The Doc folder is not unpacked unless the **DOCUMENTATION** chip is on. On an update your packages (`Lib\site-packages` and `Scripts`) move to the new build. The py launcher does not see a portable Python — start it by the full path of python.exe or with **START**.
 
 ## VS CODE
 
@@ -101,11 +103,13 @@ The **IN THE SYSTEM** card shows what usually breaks: every Python the registry 
 
 **Portable.** The archive is unpacked into a folder (`Portable\VSCode` by default), with a `data` folder beside Code.exe where the editor keeps its settings and extensions and writes nothing to the profile. The portable VS Code does not update itself — this program updates it: a fresh archive, the program replaced, `data` untouched.
 
-**Settings and extensions** are shared by both modes. The settings are the file `Presets\VSCode\settings.json`; trust in folders is off in it (`security.workspace.trust.enabled`), so the editor does not ask about every folder. The **RIPGREP FOR TODO TREE** chip: Todo Tree finds its marks with ripgrep, whose path inside VS Code changes with every update, so a separately installed one is taken (none — WinGet installs it) and its path is written into the settings.
+**Settings and extensions** are shared by both modes. The settings are the file `Presets\VSCode\settings.json`; trust in folders is off in it (`security.workspace.trust.enabled`), so the editor does not ask about every folder. Whether they go in, and **ripgrep for Todo Tree** with them, is chosen in the window of the choice (below): Todo Tree finds its marks with ripgrep, whose path inside VS Code changes with every update, so a separately installed one is taken (none — WinGet installs it) and its path is written into the settings. The same **Author's settings** box stands right on the page too, in the card of the install of each mode.
 
 **TAKE FROM THE MACHINE** makes the settings, keys (`keybindings.json`) and snippets of this machine's VS Code the preset — the installed or the portable one, by the mode of the page; the machine's path of ripgrep is left out. The keys and snippets of the preset go along with the settings. **UPDATE EXTENSIONS** updates every extension now by VS Code itself (`code --update-extensions`); usually they update by themselves too — `extensions.autoUpdate` is on in the Audion settings.
 
-The extensions come from three lists in `Presets\VSCode`: **CORE** (`extensions.txt`, installed always), **AI AGENTS** (`extensions-ai.txt`: Claude and Codex by default; Grok by request, a panel over a separate Grok Build CLI) and **BY REQUEST** (`extensions-optional.txt`). Every extension is a chip: on or off; the mark is kept in the settings of the program. The tip of a section's name says why exactly these are in it, the tip of a chip gives the full identifier and whether the extension is installed. The lists can be edited (the **LISTS** button): one line — one identifier, a heading `# --- Name ---` opens a section.
+The extensions come from three lists in `Presets\VSCode`: **CORE** (`extensions.txt`, installed always), **AI AGENTS** (`extensions-ai.txt`: Claude, Codex and Kilo Code by default; Grok by request, a panel over a separate Grok Build CLI) and **BY REQUEST** (`extensions-optional.txt`). Kilo Code takes the models of many providers by an API key or through the Kilo gateway, and the Codex and Grok subscriptions connect to it officially; do not connect a Claude subscription to it — Anthropic does not allow working by it through third-party agents and bans the account for it (Claude in Kilo Code — by an API key only).
+
+What goes in is ticked in a window of its own: on top **Author's settings** and **ripgrep for Todo Tree**, below every extension of the three lists by sections, the buttons **ALL**, **BY THE LISTS** (as the lists mean it) and **CLEAR ALL**, and a count of what is ticked and installed already. The window opens before **INSTALL**, **REINSTALL** and **UNPACK** (its button below starts the install), before **EXTENSIONS ONLY** (without the settings) and by **CHOOSE EXTENSIONS** (the **SAVE** button) — it stands in the card of the install beside the count of what is ticked, under the **Author's settings** box. The ticks are kept in the settings of the program when the window is left by its button; **CANCEL** leaves everything as it was. The tip of a section's name says why exactly these are in it, the tip of a tick gives the full identifier and whether the extension is installed. The lists can be edited (the **LISTS** button): one line — one identifier, a heading `# --- Name ---` opens a section.
 
 ## GIT
 
@@ -115,7 +119,7 @@ The extensions come from three lists in `Presets\VSCode`: **CORE** (`extensions.
 
 **GitHub CLI** (`gh`) is installed in the mode of the page: the MSI of the release for the system or the zip into `Portable\GitHub CLI`, checked against the checksums of the release. **SIGN IN** opens `gh auth login --web` in a console window of its own: gh shows a one-time code, entered in the browser on github.com — after that both `gh` and Git go to GitHub with this sign-in. **SIGN OUT** — `gh auth logout`.
 
-**Git settings** — the preset `Presets\Git\gitconfig` (line endings, long paths, Cyrillic in file names, the editor, branch main, UTF-8). **CARRY OVER SETTINGS** puts the keys into the global settings one by one (`git config --global`): the name, e-mail and sign-in in `~\.gitconfig` stay. Beside each key is what is in force for you now. **TAKE FROM THE MACHINE** makes the global settings of this machine the preset — without the personal and machine ones (user, credential, url, http and anything that looks like an address with a login or a token).
+**Git settings** — the preset `Presets\Git\gitconfig` (line endings, long paths, Cyrillic in file names, the editor, branch main, UTF-8). **CARRY OVER SETTINGS** puts the keys into the global settings one by one (`git config --global`): the name, e-mail and sign-in in `~\.gitconfig` stay. The **Author's settings: the Audion gitconfig** box (ticked by default) does it after every install and unpacking too; without it Git goes in clean. Beside each key is what is in force for you now. **TAKE FROM THE MACHINE** makes the global settings of this machine the preset — without the personal and machine ones (user, credential, url, http and anything that looks like an address with a login or a token).
 
 ## AI CLI
 
@@ -155,7 +159,7 @@ The **Folder** field of the portable mode takes a path on Enter or when you leav
 | Key | What it does |
 |---|---|
 | F1 | this guide |
-| Ctrl+1 … Ctrl+6 | the sections POWERSHELL 7, TERMINAL, PYTHON 3.12, VS CODE, GIT, AI CLI |
+| Ctrl+1 … Ctrl+6 | the sections POWERSHELL 7, TERMINAL, PYTHON, VS CODE, GIT, AI CLI |
 | Ctrl+7, Ctrl+8 | DOWNLOADS, ABOUT |
 | Ctrl+J | the journal |
 | Esc | back to the section |

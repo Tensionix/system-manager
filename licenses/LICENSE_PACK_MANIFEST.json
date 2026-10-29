@@ -1,7 +1,7 @@
 {
   "schema": "audion.build_licenses.pack_manifest.v1",
-  "generated_utc": "2026-10-24T08:14:09Z",
-  "run_id": "20261024T081408Z_audion-system-manager_fb047c4f",
+  "generated_utc": "2026-10-29T01:23:17Z",
+  "run_id": "20261029T012317Z_audion-system-manager_f74cd9ca",
   "project_id": "audion-system-manager",
   "project_name": "Audion System Manager",
   "scan_root": ".",
@@ -9,28 +9,28 @@
   "files": [
     {
       "name": "THIRD_PARTY_NOTICES.txt",
-      "sha256": "a4c3a460c44b48d8ba6b1df4bfc61cec8a5974e3f2be1002e24aab6fc8ee4632",
+      "sha256": "0ac1fa3f632934a2f0695fd4e6211c542d2bb63f1a422b1c380b2b7f9710996c",
       "size": 256673
     },
     {
       "name": "SOURCE_CODE_AVAILABILITY.txt",
-      "sha256": "f877035220a98ec6e35dd3b4862e76b9527020504c009826387b890c08880d06",
+      "sha256": "2e55468673b0a72e48fa5b3f3b3826a9f65c2b7df28ad14a1bd937d842c15b2f",
       "size": 3903
     },
     {
       "name": "COMPONENTS.json",
-      "sha256": "6c98aa628facd7760fe6df8cb82d7a195364c0ba0906160dd77667b192c05fd0",
+      "sha256": "6bc8cbbaf7350458035aa1c1984ef709770a1a3b8c3770e2b2366afc057b5791",
       "size": 39196
     },
     {
       "name": "_records.json",
-      "sha256": "97141afeb5d7816a1b038f1384ef7fcd97e258f68c63704ad1ebe4fb633792d8",
+      "sha256": "c9ea6b2f484976b2bf34a3f082368ae91f34075bbb911bd8bf0faa152259984d",
       "size": 10293
     },
     {
       "name": "LICENSE_SCAN_REPORT.md",
-      "sha256": "76a5f9392ed2738ebe6a36c4b2b577d9238d4a9d5bea72159ad935c891f0706b",
-      "size": 2277
+      "sha256": "7a6556baccf6340d7c8a44dabbad3bafb40d005b35bc8f017e9a576c14210d67",
+      "size": 2246
     }
   ]
 }

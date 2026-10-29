@@ -1,7 +1,7 @@
 # Audion Build Licenses Scan Report
 
 - Project: **Audion System Manager** (`audion-system-manager`)
-- Run: `20261024T081408Z_audion-system-manager_fb047c4f`
+- Run: `20261029T012317Z_audion-system-manager_f74cd9ca`
 - Scan root (from the project root): `.`
 - Output (from the project root): `licenses`
 - Status: **PASS**
@@ -17,7 +17,7 @@ No issues detected.
 
 | Component | Change | Old | New |
 |---|---|---:|---:|
-| Audion launcher | `VERSION_OR_ARTIFACT_CHANGED_LICENSE_SAME` | bundled | bundled |
+| Audion launcher | `UNCHANGED` | bundled | bundled |
 | Avalonia | `UNCHANGED` | 12.1.3 | 12.1.3 |
 | Avalonia.Angle.Windows.Natives | `UNCHANGED` | 2.1.27548.20260419 | 2.1.27548.20260419 |
 | Avalonia.Desktop | `UNCHANGED` | 12.1.3 | 12.1.3 |
@@ -37,7 +37,7 @@ No issues detected.
 | JetBrains Mono | `UNCHANGED` | 2.211 | 2.211 |
 | Lucide | `UNCHANGED` | 1.48.0 | 1.48.0 |
 | MicroCom.Runtime | `UNCHANGED` | 0.11.6 | 0.11.6 |
-| Microsoft.NETCore.App.Runtime.win-x64 | `UNCHANGED` | 10.0.13 | 10.0.13 |
+| Microsoft.NETCore.App.Runtime.win-x64 | `UNCHANGED` | 10.0.14 | 10.0.14 |
 | Simple Icons | `UNCHANGED` | 16.32.0 | 16.32.0 |
 | SkiaSharp | `UNCHANGED` | 3.119.4 | 3.119.4 |
 | SkiaSharp.NativeAssets.Win32 | `UNCHANGED` | 3.119.4 | 3.119.4 |
